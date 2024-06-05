@@ -1,0 +1,17 @@
+<main class="container w-100 m-auto form-signin">
+    <form [formGroup]="timmyForm" (submit)="onSubmit()">
+    
+        <h1 class="h3 mb-3 fw-normal text-center">This is my form</h1>
+
+        <label for="credit-card">Credit Card Number</label>
+        <input
+            id="credit-card"
+            name="credit-card"
+            type="text"
+            placeholder="Enter your 16-digit card number"
+            credit-card
+        >
+    
+    </form>
+
+</main>
